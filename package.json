@@ -1,0 +1,47 @@
+{
+  "name": "react-native-pseudo-localization",
+  "version": "0.0.1",
+  "description": "React Native Pseudo Localization is small package that enables pseudolocalization.",
+  "private": false,
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier 'src/**/*.js' --write"
+  },
+  "keywords": [
+    "chaos engineering",
+    "i18n",
+    "internationalization",
+    "l10n",
+    "language",
+    "localization",
+    "pseudo-localization",
+    "psuedo-localize",
+    "psuedo",
+    "react-native-pseudo-localization",
+    "translation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeljkoX/react-native-pseudo-localization.git"
+  },
+  "author": "Zeljko Markovic <zaljko89markovic@gmail.com> (https://github.com/zeljkoX/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeljkoX/react-native-pseudo-localization/issues"
+  },
+  "homepage": "https://github.com/zeljkoX/react-native-pseudo-localization#readme",
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1",
+    "prettier": "1.14.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
