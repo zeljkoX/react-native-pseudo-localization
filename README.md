@@ -14,6 +14,10 @@ Pseudolocalization (or pseudo-localization) is a software testing method used fo
 
 Inspired by [Brian Holt](https://twitter.com/holtbt) talk on [ReactRally](https://www.youtube.com/watch?v=V55BaKDQpMk) and [tryggvigy GitHub repository]( https://github.com/tryggvigy/pseudo-localization).
 
+## Snack Example
+
+Live example on [Snack](https://snack.expo.io/rkMjSe_L7)
+
 ## Installation
 
 ```bash
@@ -50,6 +54,11 @@ export default class App extends Component {
 key | type | Value | Description
 ------ | ---- | ------- | ----------------------
 enabled | boolean | true | Programaticaly enabla and disable pseudo localizations
+
+## TODO
+
+- Android support
+- React Context API failback for older versions
 
 ## License
 
