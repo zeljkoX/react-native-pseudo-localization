@@ -57,7 +57,6 @@ enabled | boolean | true | Programaticaly enabla and disable pseudo localization
 
 ## TODO
 
-- Android support
 - React Context API failback for older versions
 
 ## License

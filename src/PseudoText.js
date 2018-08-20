@@ -4,10 +4,10 @@
  * Used for text manipulation in React Native
  */
 
-import React from 'react';
-import { Text } from 'react-native';
-import { PseudoContext } from './PseudoProvider';
-import localizeString from './localizeString';
+import React from "react";
+import { Text } from "react-native";
+import { PseudoContext } from "./PseudoProvider";
+import localizeString from "./localizeString";
 
 const isNewTextVersion = !!Text.render;
 const defaultTextRender = isNewTextVersion
@@ -21,7 +21,7 @@ function procesArray(array) {
     return array;
   }
   return array.map((item, index) => {
-    if (typeof item === 'string') {
+    if (typeof item === "string") {
       return localizeString(item);
     }
     return item;
@@ -29,7 +29,7 @@ function procesArray(array) {
 }
 // localize string
 function pseudoText(children) {
-  return typeof children === 'string'
+  return typeof children === "string"
     ? localizeString(children)
     : procesArray(children);
 }
@@ -42,10 +42,10 @@ function renderText(args, that) {
   } else {
     const element = defaultTextRender.apply(that, args);
     return React.cloneElement(element, {
-      children: pseudoText(element.props.children),
+      children: pseudoText(element.props.children)
     });
   }
-};
+}
 
 // main render function that is connected to PseudoContext
 function render() {

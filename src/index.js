@@ -1,3 +1,3 @@
-import PseudoProvider from './PseudoProvider';
+import PseudoProvider from "./PseudoProvider";
 
 export default PseudoProvider;
