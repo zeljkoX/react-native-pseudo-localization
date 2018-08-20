@@ -4,8 +4,11 @@
 
 | English  | Pseudo Language |
 | ------------- | ------------- |
-| <img width="300" height="550" alt="English" src="https://i.imgur.com/8dDJjtG.jpg">
-| <img width="300" height="550" alt="Pseudo Language" src="https://i.imgur.com/PMVvpDq.jpg"> |
+| <img width="300" height="550" alt="English" src="https://i.imgur.com/8dDJjtG.jpg"> | <img width="300" height="550" alt="Pseudo Language" src="https://i.imgur.com/PMVvpDq.jpg"> |
+
+## Pseudolocalization
+
+Pseudolocalization (or pseudo-localization) is a software testing method used for testing internationalization aspects of software. Instead of translating the text of the software into a foreign language, as in the process of localization, the textual elements of an application are replaced with an altered version of the original language.
 
 ## Inspiration
 
