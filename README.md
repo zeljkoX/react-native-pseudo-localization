@@ -2,10 +2,10 @@
 
 ## React Native Pseudo Localization is small package that enables [pseudolocalization](https://en.wikipedia.org/wiki/Pseudolocalization) in React Native.
 
-<p align="center" >
-  <img width="300" height="550" alt="English" src="https://i.imgur.com/oGNI0FX.jpg">
-  <img width="300" height="550" alt="Pseudo Language" src="https://i.imgur.com/M92oEfV.jpg">
-</p>
+| English  | Pseudo Language |
+| ------------- | ------------- |
+| <img width="300" height="550" alt="English" src="https://i.imgur.com/8dDJjtG.jpg">
+| <img width="300" height="550" alt="Pseudo Language" src="https://i.imgur.com/PMVvpDq.jpg"> |
 
 ## Inspiration
 
